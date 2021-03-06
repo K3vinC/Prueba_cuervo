@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{/*
+    background-repeat: no-repeat;
+    background-size: 100em;*/
+    background-color: #0093E9;
+    background-image: linear-gradient(269deg, #0093E9 0%, #80D0C7 100%);
+}
+
+/*---------------- contenido         ---------------------*/
+
+.content{
+    display: contents;
+    perspective: 100px;
+}
+
+
+
+
+
+input{
+    border: none;
+}
+.datos-inp input{
+    margin: 0px 10px;
+    border: 0.5px #5e5e5e solid;
+    color: #665b5baf;
+    font-weight: bold;
+    border-radius: 3.5px;
+}
+
+
+
+.tarjeta-cont{   
+    margin: 10px 0px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:95vh;
+    width:100%;
+    background-attachment:  fixed;
+    background-repeat: no-repeat, repeat-y;
+    content: center;
+}
+/*          trajetaaa blanca            */
+.tarjeta{
+    border-radius: 6%;
+    display: flex;
+    align-items: center;
+    width:750px;
+    height:70%;
+    background: #fff;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+}
+
+.header-t{
+    border-right: 1px solid #ddd;
+}
+
+.info-tarjeta{
+    background: #fbfbfb;
+}
+
+.ift2{
+    border-left: 8px solid #61bcfe;
+    border-radius: 5px;
+}
+
+
+.headder-t, .info-tarjeta{
+    padding:5vh;
+    text-align: center;
+}
+
+.tt .info-tarjeta{
+    padding: 9px;
+    border-radius: 13px;
+}
+
+.ift3{
+    box-shadow: 7px 8px #21425a4d;
+    padding: 2vh 1.5vw;
+    text-align: center;
+    border-left: 8px solid #21425a;
+    border-radius: 5px;
+}
+
+.ift3 h1{
+    padding: 0px 50px 0px 0px;    
+}
+
+.ift2 h1{
+    padding: 0px 50px 0px 0px;
+}
+
+
+
+
+.info-tarjeta h1{
+    color:#f0522a;
+}
+
+
+
+.description{
+    display: contents;
+    position: relative;
+}
+
+.description p{
+    margin: 20px 30px;
+}
+
+.description .social{
+    margin-top: 25px;
+}
+
+.description .social a{
+    display: inline-block;
+    padding: 0px 10px;
+    color: #f0522a;
+}
+
+.contenedor-but{
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.butt{
+    display: flex;
+    padding: 0px 15px;
+    margin: 0px 10px;
+    border: 1px #5e5e5e solid;
+    color: #5e5e5e;
+    font-weight: bold;
+    padding: 0.3em 1.65em;
+    border-radius: 8px;
+    transition: all .1s ease-in-out;
+}
+
+input:hover{
+    color:red;
+}
+
+
+.it3{
+    flex-direction: row;
+}
+
+.it3 .tarjeta{
+    display: inline;
+    width: 400px;
+    margin: 10px;
+}
+
+
+/*distintos estilos en tal caso que quiera cambiar el color o distro de las tarjetas*/
+
+
+.it2 .tarjeta{
+    width: 40vw;
+    margin: 10px;
+}
+
+
+img{
+    height: 28vh;
+    border-radius: 5%;
+}

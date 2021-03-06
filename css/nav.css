@@ -1,0 +1,71 @@
+/*---------------- contenido         ---------------------*/
+
+.content{
+    perspective: 100px;
+}
+
+/*---------------contenedor del nav ------------------*/
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    background: #222020;   
+}
+
+.nav-container h1{
+    position: static;
+    left: 5px;
+}
+
+.nav-container a{
+    padding: 10px ;
+    text-decoration: none;
+    color: white;
+}
+/*------------------------------- nav --------------------------------*/
+nav{
+    display: flex;
+    justify-content: flex-end;  
+}
+
+
+.nav-container nav ul{
+    list-style: none;
+}
+.nav-button{
+    display: contents;
+}
+
+nav li a{
+    color: white;
+   /* display: block;*/
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+nav li a:hover{
+    background:#C9C9C9;
+    color: black;
+}
+
+/*  footer    */
+
+footer{
+    text-align: start;
+    color: #e2e2e2;
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #222020bd;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}

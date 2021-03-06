@@ -1,0 +1,97 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --hbackground_color: #333;
+    --htext_color: #fdfdfd;
+    --alter_rowback: #ddd;
+    
+    --twidth: auto;
+    --tbody_height: 350px;
+    --column_o: 350px;
+    --column_t: 350px;
+    --column_th: 200px;
+    --column_fo:200px;
+    --column_f:200px;
+}
+
+body{
+    height: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.tarjeta-contenedor{
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    margin: 25px auto;
+    width: max-content;
+}
+
+/* tablaa   */
+
+.alquiler-tabla{
+    width: var(--twidth);
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th {
+    text-decoration: underline;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+td:nth-child(1),th:nth-child(1) {
+    min-width: var(--column_o );
+
+}
+
+td:nth-child(2),th:nth-child(2) {
+    min-width: var(--column_t);
+
+}
+
+td:nth-child(3),th:nth-child(3) {
+    width: var(--column_th);
+
+}
+
+td:nth-child(4),th:nth-child(4) {
+    width: var(--column_fo);
+
+}
+
+td:nth-child(5),th:nth-child(5) {
+    width: var(--column_f);
+
+}
+
+thead {
+    background-color: var(--hbackground_color);
+    color: var(--htext_color);
+    
+}
+thead tr{
+    display: block;
+    position: relative;
+}
+
+tbody {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: var(--tbody_height);
+}
+
+tbody tr:nth-child(even) {
+background-color: var(--alter_rowback);
+}
+
