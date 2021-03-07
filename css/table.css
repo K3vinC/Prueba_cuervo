@@ -7,7 +7,7 @@
 :root{
     --hbackground_color: #333;
     --htext_color: #fdfdfd;
-    --alter_rowback: #ddd;
+    --alter_rowback: rgba(221, 221, 221, 0);
     
     --twidth: auto;
     --tbody_height: 350px;
